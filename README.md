@@ -16,7 +16,8 @@ To use packmapper you need to have zip file of your pack
 
 1. Download packmapper
 2. Find pack you need to get on 1.20.1
-3. Execute `java -jar packmapper-VERSION.jar <path to 1.12.2 pack> <path to 1.20.1 pack> <true/false: using diamond textures as netherite textures>`
+3. Execute `chmod u+x <path to packmapper>`
+4. Open packmapper with double click
 
 <div align="center">
 
@@ -31,5 +32,13 @@ Mapping gapple
 # Knows issues
 
 Json model breaks texture of item(delete `assets/minecraft/models` from 1.20.1 pack)
+
+</div>
+
+# Special thanks
+
+<div align="center">
+
+[cattyn](https://github.com/cattyngmd) for making gui <3
 
 </div>
