@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "ksmn"
-version = "1.2"
+version = "2.0"
 
 repositories {
     mavenCentral()
@@ -12,6 +12,9 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+
+    implementation("io.github.spair:imgui-java-app:1.86.11")
+    implementation("tv.wunderbox:nativefiledialog:1.0.3")
 }
 
 tasks.test {
